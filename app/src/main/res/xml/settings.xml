@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:title="Czas do namysłu"
+        android:summary="Odlicza od tej wartości do zera a potem się zrobi"
+        android:inputType="numberDecimal"
+        android:defaultValue="10"
+        android:selectAllOnFocus="true"
+        android:key="prefTime"/>
+
+    <SwitchPreference
+        android:title="Pikaj"
+        android:summary="Pika co sekundę i wkurwia"
+        android:defaultValue="true"
+        android:key="prefBeep"/>
+
+</PreferenceScreen>

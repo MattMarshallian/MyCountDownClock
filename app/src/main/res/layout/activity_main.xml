@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="com.matt.mycounterclock.MainActivity">
+
+    <TextView
+        android:background="@mipmap/swiatowy_konflikt"
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="0:20"
+        android:textSize="240sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        android:typeface="normal" />
+
+</LinearLayout>
